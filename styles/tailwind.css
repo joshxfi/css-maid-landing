@@ -2,6 +2,11 @@
 
 @tailwind base;
 @tailwind components;
+
+.snippet {
+  @apply bg-gray-800 text-gray-300 text-left md:pr-32 md:text-sm pl-4 py-4 rounded-xl;
+}
+
 @tailwind utilities;
 
 body {

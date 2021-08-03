@@ -8,15 +8,20 @@ const index: React.FC = () => {
     <div className='w-9/12 mx-auto font-pops'>
       <Navbar />
       <main>
-        <div className='flex justify-between relative mt-28'>
+        <div className='flex justify-between mt-28 md:flex-col md:mt-0'>
           <div className='pt-14'>
-            <h1 className='text-5xl font-bold text-blue-700'>
+            <h1 className='text-5xl md:text-3xl font-bold text-blue-700'>
               CSS Reset for your <br /> React App.
             </h1>
-            <p className='font-medium'>get started!</p>
+            <p className='font-medium md:text-sm'>get started!</p>
+            <div className='mt-8'>
+              <div className='snippet mb-4 md:mb-2'>npm i css-maid</div>
+              <div className='snippet'>yarn add css-maid</div>
+            </div>
           </div>
-          <div className='h-96 w-80 relative border-b-8 border-blue-700'>
-            <Image layout='fill' objectFit='cover' objectPosition='center' src={logo} alt='css maid logo' />
+
+          <div className='relative border-b-8 border-blue-700 h-96 w-80'>
+            <Image objectFit='cover' objectPosition='center' layout='fill' src={logo} alt='css maid logo' />
           </div>
         </div>
       </main>
