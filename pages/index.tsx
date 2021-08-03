@@ -20,7 +20,7 @@ const index: React.FC = () => {
             </div>
           </div>
 
-          <div className='relative border-b-8 border-blue-700 h-96 w-80'>
+          <div className='relative border-b-8 border-blue-700 h-96 md:h-56 w-80 md:w-52 md:mx-auto md:mt-24'>
             <Image objectFit='cover' objectPosition='center' layout='fill' src={logo} alt='css maid logo' />
           </div>
         </div>
