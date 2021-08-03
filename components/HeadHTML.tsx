@@ -11,6 +11,7 @@ export const HeadHTML: React.FC = () => {
         name='description'
         content='CSS Maid is a tool for React.js that helps clean up & reset default css! It resets default padding, remove text-decoration on <a> tag, and many more! This tool was built using emotion & typescript!'
       />
+      <meta name='google-site-verification' content='qYvjviRXMIRtb9Rxhqxx1RqDfL55pfJfPCbeB8kEonE' />
       <meta name='robots' content='index, follow' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta name='language' content='English' />
