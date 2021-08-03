@@ -3,7 +3,7 @@ import React from "react";
 export const Navbar: React.FC = () => {
   return (
     <nav className='flex w-full items-center justify-between mt-4'>
-      <div className='text-blue-700 font-bold text-md md:text-base'>
+      <div className='text-blue-700 font-bold text-lg md:text-base'>
         <p>css-maid</p>
       </div>
 
