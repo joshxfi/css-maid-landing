@@ -2,13 +2,26 @@
 
 @tailwind base;
 @tailwind components;
-
-.snippet {
-  @apply bg-gray-800 text-gray-300 text-left md:pr-32 md:text-sm pl-4 py-4 rounded-xl;
-}
-
 @tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 
 body {
   background: url("../public/img/bg.png");
+}
+
+@layer components {
+  .snippet {
+    @apply bg-gray-800 text-gray-300 text-left md:pr-32 md:text-sm pl-4 py-4 rounded-xl;
+  }
+
+  .lastAnchor {
+    @apply md:text-sm hover:text-blue-700;
+  }
+
+  .anchor {
+    @apply mr-16 md:mr-8 lastAnchor;
+  }
 }

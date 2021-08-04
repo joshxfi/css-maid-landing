@@ -8,13 +8,13 @@ export const Navbar: React.FC = () => {
       </div>
 
       <div className='font-medium'>
-        <a className='mr-16 md:mr-8 md:text-sm' href='https://www.npmjs.com/package/css-maid'>
+        <a className='anchor' href='https://www.npmjs.com/package/css-maid' target='_blank' rel='noreferrer'>
           npm
         </a>
-        <a className='mr-16 md:mr-8 md:text-sm' href='https://yarnpkg.com/package/css-maid'>
+        <a className='anchor' href='https://yarnpkg.com/package/css-maid' target='_blank' rel='noreferrer'>
           yarn
         </a>
-        <a className='md:text-sm' href='https://github.com/joshxfi/css-maid'>
+        <a className='lastAnchor' href='https://github.com/joshxfi/css-maid' target='_blank' rel='noreferrer'>
           github
         </a>
       </div>
