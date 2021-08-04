@@ -15,8 +15,8 @@ const index: React.FC = () => {
             </h1>
             <p className='font-medium md:text-sm'>get started!</p>
             <div className='mt-8'>
-              <div className='snippet mb-4 md:mb-2'>npm i css-maid</div>
-              <div className='snippet'>yarn add css-maid</div>
+              <div className='snippet mb-4 md:mb-2 shadow-lg'>npm i css-maid</div>
+              <div className='snippet shadow-lg'>yarn add css-maid</div>
             </div>
           </div>
 
