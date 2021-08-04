@@ -26,11 +26,9 @@ export const HeadHTML: React.FC = () => {
       <meta property='og:url' content='https://xfi.vercel.app' />
       <meta
         property='og:image'
-        content='https://raw.githubusercontent.com/joshxfi/strawberry-react/master/src/images/css-maid-landing-ss.jpg?token=AQR5QTGIZKKFGAJ76AOKOGDBBEKII'
+        content='https://raw.githubusercontent.com/joshxfi/project-skl/main/client/public/css-maid-landing-ss.jpg'
       ></meta>
       <meta property='og:image:type' content='image/jpeg' />
-      <meta property='og:image:width' content='900' />
-      <meta property='og:image:height' content='800' />
       <meta property='twitter:card' content='website' />
       <meta
         property='twitter:description'
@@ -39,7 +37,7 @@ export const HeadHTML: React.FC = () => {
       <meta property='twitter:title' content='CSS Maid | React' />
       <meta
         property='twitter:image'
-        content='https://raw.githubusercontent.com/joshxfi/strawberry-react/master/src/images/css-maid-landing-ss.jpg?token=AQR5QTGIZKKFGAJ76AOKOGDBBEKII'
+        content='https://raw.githubusercontent.com/joshxfi/project-skl/main/client/public/css-maid-landing-ss.jpg'
       />
 
       <title>CSS Maid | React</title>
